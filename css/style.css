@@ -1,1 +1,83 @@
-/* ini css */
+main{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    width:800px;
+    margin: 50px auto ;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 2px solid rgb(195, 194, 194); 
+    /* height: 800px;  */
+    width: 100%; 
+    border-radius:5px
+}
+header{
+    text-align: center;
+}
+article{
+    /* max-width: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+}
+
+article h2{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: aqua;
+}
+figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+figure .segitiga{
+   
+    width: 50%;
+}
+figure .jajar-genjang{
+    width: 42%;
+}
+.chioces{
+    display: flex; 
+    justify-content: center; 
+
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+section input{
+    width: 500px;
+}
+.button-result{
+    display: flex; 
+    justify-content: space-evenly;
+}
+button{
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom: 50px;
+    background-color: rgb(0, 183, 255);
+    color:white;
+    padding: 8px 15px;
+}
+
+button:hover{
+    background-color: rgb(84, 204, 251);
+}

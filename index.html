@@ -3,10 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css\style.css">
+    <title>rumus segitiga dan jajar genjang</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+        <header>
+            <h1>Welcome to Katik!</h1>
+            <p>Hi Sobat, selamat datang di Katik &#128512</p>
+            <p>sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        </header>
+        <main>
+            <div class="main-content">
+                <article>
+                    <h2>Segitiga</h2>
+                    <figure>
+                        <img class="segitiga" src="asset/Rumus-Luas-Dan-Keliling-Segitiga-1024x576.png.webp" alt="">
+                    </figure>
+                </article>
+                <hr>
+                <section class="chioces">
+                    <label for="user-choice"></label>
+                    <select id="user-choice" onchange="segitiga()">
+                        <option value="luas-segitiga">Luas Segitiga</option>
+                        <option value="keliling-segitiga">Keliling Segitiga</option>
+                    </select>
+                </section>
+
+                <section id="input-value">
+                <!--konten berubah-ubah-->
+                </section>
+                
+            </div>
+           <div class="main-content">
+                <article>
+                    <h2>Jajar Genjang</h2>
+                    <figure>
+                        <img class="jajar-genjang" src="asset/7e1116b65eab976c92e9592d2f903cbf.png" alt="">
+                    </figure>
+                </article>
+                <hr>
+                <section class="chioces">
+                    <label for="user-choice"></label>
+                    <select id="user-choice2" onchange="jajarGenjangOption()">
+                        <option value="luas-jajar-genjang">Luas Jajar Genjang</option>
+                        <option value="keliling-jajar-genjang">Keliling Jajar Genjang</option>
+                    </select>
+                </section>
+
+                <section id="input-value2">
+                       <!--konten berubah-ubah-->
+                </section>
+            </div>
+        </main>
+ 
+   <script src="js/script.js"></script>
 </body>
 </html>
+
+ 
